@@ -5,8 +5,9 @@ button{outline: none; border:none;} /*common*/
 header{position: relative; height: 850px;}
 body{font-family:'나눔고딕',sans-serif; background-color: #f7f7f7; font-weight: bold;}
 	.logo{float: left; margin:20px 40px 20px 400px; }
-	nav{position: fixed;  width: 100%; height: 90px; top: 0; left: 0;
+	div.nav{position: fixed;  width: 100%; height: 90px; top: 0; left: 0;
 		border-bottom: rgba(255, 255, 255, .5) 0.5px solid; background: #000;}
+	nav{width: 1200px;}
 	ul.menu{float: right; width: 846px; margin-right: 360px; text-align: center; color: #fff;}
 	nav > ul > li:first-child{margin-left: 40px;}
 	nav > ul > li {/* 대메뉴 */
@@ -35,7 +36,7 @@ nav > ul > li:hover ul {/* 대메뉴 위에 마우스를 올리면 하위 선택
 /*contents*/
 	section{text-align: center; margin: 0 auto; width: 100%;}
 	h2{margin-top: 48px; font-size: 42px; text-align:center;}
-	p.ban{margin-top: 30px; font-size: 14px; line-height: 1.6; }
+	p.ban{margin-top: 28px; font-size: 14px; line-height: 1.5; }
 	.arr{position: absolute; bottom: 0; left: 950px;}
 	#wrap{width: 100%; margin: 0 auto;}
 	#id{padding: 50px;}
@@ -53,10 +54,11 @@ nav > ul > li:hover ul {/* 대메뉴 위에 마우스를 올리면 하위 선택
 	.banner1 p:nth-of-type(2),.banner2 p:nth-of-type(2),.banner3 p:nth-of-type(2),.banner4 p:nth-of-type(2){margin-top: 20px;}
 	/*section2*/
 	#contactwrap{width: 100%; position:relative; /*1920px*/}
-	p.contact{position: absolute; top: 0; left: 0;}
-	button.cont{position: absolute; top: 0; left: 0;}
-	.container{margin-top: 20px; width: 1200px; overflow: hidden;}
-	p.gal{margin-top: 10px; font-size: 14px;}
+	p.contact{position: absolute; top:140px; left: 0; right: 0; margin:auto; font-size: 20px; line-height: 1.5; color: #fff; }
+	button.cont{position: absolute; top:250px; left: 0; right: 0; margin: auto; width: 133px; height:41px;  font-size: 14px; background: orange;  color: #fff; }
+	.container{margin-top: 0; width: 1200px; overflow: hidden; background: #fff;}
+	.gallerywrapper{width: 100%; background: #fff; height: 720px;}
+	p.gal{margin-top: 28px; line-height: 1.5; font-size: 14px; margin-bottom: 40px;}
 	.gallery_board{}
 	#g1 p { display:none; background-color:orange; opacity:.7;}
 	.gb1{overflow: hidden; widows: 300px; height: 230px; float: left;}
@@ -72,12 +74,21 @@ nav > ul > li:hover ul {/* 대메뉴 위에 마우스를 올리면 하위 선택
 	#g7{background: url(images/gallery07.jpg); width:300px; height: 230px; float: left;}
 	#g8{background: url(images/gallery08.jpg); width:300px; height: 230px; float: left;}
 	/*section3*/
-	#supportwrapper{width:1200px; height: 200px; background-color: lightgray; clear: both; margin-top: 30px;}
-	.support{float: left; width: 500px; text-align: left;}
-	#mail{width: 170px; height: 40px; border:solid 2px #000; clear: both; background: #fff;}
-	footer{width: 100%; height: 130px; background-color: #000; color: #fff;text-align: center; font-size: 14px;}
-	.foottop{}
-	.foottop>li{color: #fff;   float: left; font-size: 15px;
-		margin-left: 150px;}
-	p.detail{width: 500px;  margin: 0 auto; clear: both;}
-	p.copy{margin: 0 auto;}
+	#supportwrapper{width:100%; height: 500px; background-color: #f7f7f7;  margin-top: 30px; background: #f7f7f7;}
+	.support{ width: 1200px; text-align: left; margin: 0 auto; }
+	.support h4{font-size: 28px; padding-top: 50px; padding-left:40px; }
+	.support h5{font-size: 18px; padding-top: 17px; padding-left:40px;}
+	.support img{float: left; clear: both; padding-right: 10px; }
+	.support p{padding-top: 40px; font-size: 14px; padding-left:40px;}
+	.support p:nth-of-type(2),.support p:nth-of-type(3),.support p:nth-of-type(4){padding-top: 10px;}
+	.support p:nth-of-type(4){padding-left: 41px;}
+	#mail{width: 170px; height: 40px; border:solid 2px #000; float: left; clear: both; background: #fff; font-size: 12px; margin-top: 94px; margin-left:40px;}
+	footer{width: 100%; height: 130px; background-color: #303030; font-size: 14px; }
+	.foottop{ margin-left: 57px; }
+	div.foot{width: 525px; margin-left: 728px;text-align: center; padding-top: 15px;font-size: 12px; color: #7c7a7a;}
+	.foottop>li{color: #fff;   float: left; font-size: 14px; font-weight: normal; padding-right: 15px;text-align: center; color: #cccccc;
+		}
+	.foottop>li:last-child{padding-right: 0;}
+	p.detail{  float: left; clear: both; font-weight: normal;  margin-top: 15px; text-align: center; line-height: 1.6; }
+	p.copy{ float: left; clear: both; font-weight: normal; /*margin-left: 670px;*/ margin-top: 10px;text-align: center; margin-left: 73px;  }
+	.top-btn{float: left;}
