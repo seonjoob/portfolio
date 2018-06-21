@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*font-family: 'Allura', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Roboto:300,400');
+body{font-family: AppleSDGothicNeo-Regular,'Allura', cursive; font-size: 45px; text-align: center;}
+h5{font-family: AppleSDGothicNeo-Regular,'Allura', cursive; font-size: 45px; text-align: center;}
+
+

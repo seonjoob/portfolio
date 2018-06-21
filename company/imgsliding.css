@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*브라우저의 높이값을 100%로 인식시키는 방법*/
+html, body{height: 100%;} /*1920*1080*/
+body{font-family:  AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; text-align:center;}
+
+.slide{height: 100%; overflow: hidden; }
+.slide>.imgG{width: 400%; height: 850px; float: left;}
+.slide>.imgG>li{/*각각의 메인 이미지*/
+	background-size: cover;
+	width:25%; height: 100%; position: relative;
+	float: left;
+}
+/*각 각의 메인 이미지*/
+.img1 {background:url(images/main04p.jpg) no-repeat ;}
+.img2 {background:url(images/main01p.jpg) no-repeat ; }
+.img3 {background:url(images/main02p.jpg) no-repeat ; }
+.img4 {background:url(images/main03p.jpg) no-repeat ;}
+
+/**** 메인 슬라이드 하단 버튼****/
+ol{position: absolute; bottom: 50px; left: 850px;}
+
+
+/*ol{position: absolute; bottom:50px ; left:/*850px 0 ;  width:120px ; height:16px; }*/
+ol>li{float: left; border-radius: 50%; padding: 10px; border:5px solid #fff; margin:20px; width: 10px; height: 10px; text-indent: -9999px; cursor: pointer; }
+.on{border: 5px solid orange; box-sizing: border-box;}
+
+ul.flex-direction-nav{ }
+	li.btnL{background: url(images/nav-left.jpg) no-repeat; width: 50px; height: 50px;  position: absolute;top:400px; left: 0; }
+	li.btnL a{text-indent: -999px;}
+	li.btnR{background: url(images/nav-right.jpg) no-repeat; width:50px; height: 50px;  position: absolute; top:400px; right: 0;}	
+	li.btnR a{text-indent: 999px;}
