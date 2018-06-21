@@ -1,6 +1,6 @@
  @charset "utf-8";
 
-	body{background: url(../images/bg2.png) no-repeat 0 0; width:100%; height: 5070px; }
+	body{background: url(images/bg2.png) no-repeat 0 0; width:100%; height: 5070px; }
 /*header*/
 	header{position: relative; margin: 0 auto; text-align: center; width: 100%; }
 	img#main{width: 100%; }
@@ -12,11 +12,11 @@
 	}
 	li.one:hover{text-shadow: 5px 5px 2px #30304b;  transition: .2s;}
 	#logo{position: absolute; top:36px; left:249px;  width:315px; height: 140px; 
-		background-image: url(../images/gelato223.gif); 
+		background-image: url(images/gelato223.gif); 
 		animation:background-image-change .5s ; }
 
 	@keyframes background-image-change{	
-		50%{background-image: url(../imgaes/gelato.jpg)}
+		50%{background-image: url(imgaes/gelato.jpg)}
 }
 
 
