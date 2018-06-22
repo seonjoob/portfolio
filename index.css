@@ -1,0 +1,67 @@
+ @charset "utf-8";
+
+body{width:1900px; font-family:'Roboto Condensed', '맑은 고딕', dotum, sans-serif; font-size: 104px; font-weight: 900; cursor: pointer;}
+span.nod{opacity:0; border:10px solid #9933cc; width:50px; left: 0; top:297px; position: absolute; z-index: 999; }
+span.bord{opacity:0; border:10px solid #a117db; width:50px; left: 490px; top:307px; position: absolute; z-index: 999; }
+span.bord2{opacity:0; border:10px solid #a117db; width:50px; left: 0; top:422px; position: absolute; z-index: 999; }
+span.bord3{opacity:0; border:10px solid #a117db; width:50px; left: 490px; top:422px; position: absolute; z-index: 999; }
+span.bord4{opacity:0; border:10px solid #a117db; width:50px; left: 0; top:542px; position: absolute; z-index: 999; }
+span.bord5{opacity:0; border:10px solid #a117db; width:50px; left: 930px; top:542px; position: absolute; z-index: 999; }
+
+
+img.logo{position:absolute; left:0; top:50px; width:64px; height: 64px;}
+img.logo:hover{transform:rotate(45deg); }
+img.name{position: absolute; left:68px; top:50px; width: 207px; height: 64px; }
+
+
+span#box2{ background-color: #fff; width: 217px; height:64px;
+ position: absolute; top:52px; left:60px; opacity: 1;}
+
+
+span.one{position: absolute; top:252px; left:0;  width: 405px;  z-index: 99;}
+span.one:hover{position: absolute; top:242px; left:0; transition: .2s;}
+span.two{position: absolute; top:252px; left:490px;
+}
+span.two:hover{position: absolute; top:242px; left:490px;transition: .2s;
+}
+span.one1{position: absolute; top:372px; left:0;
+}
+span.one1:hover{position: absolute; top:362px; left:0;transition: .2s; }
+span.two2{position: absolute; top:372px; left:490px;
+}
+span.two2:hover{position: absolute; top:362px; left:490px;transition: .2s; }
+span.thr{position: absolute; top:492px; left:0;
+}
+span.thr:hover{position: absolute; top:482px; left:0;transition: .2s; }
+
+span.thr2{position: absolute; top:492px; left:930px;
+}
+span.thr2:hover{position: absolute; top:482px; left:930px; transition: .2s;}
+
+p.pro{font-weight: 400; font-size: 14px; }
+span#pro{position: absolute; left:0; top:812px;
+font-size: 20px; color: #878787; }
+span#span1{position: absolute; left:0; top:852px; font-weight: 300;
+color: #909090;}
+span#name{position: absolute; left:130px; top:852px; font-size: 14px; font-weight: 300; color: #909090;
+}
+span#span2{position: absolute; left:0; top:882px; font-size: 14px; font-weight: 300; color: #909090;
+}
+span.pho{position: absolute; left:130px; top:882px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span#span3{position: absolute; left:0; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.span4{position: absolute; left:130px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.left{position: absolute; left:190px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.span2{position: absolute; left:390px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.left2{position: absolute; left:425px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.span3{position: absolute; left:560px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.left3{position: absolute; left:600px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+
+img#ar{position: absolute; left:1024px; top:900px;}

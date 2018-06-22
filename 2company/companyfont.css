@@ -6,8 +6,8 @@ font-family: 'Alex Brush', cursive;*/
 
 
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Nanum+Gothic:400,700|Roboto:300,400,500,700,900');
-body{font-family: 'Roboto', sans-serif; font-size: 15px; text-align: center; font-weight: 400;}
 
+body{font-family: 'Nanum Gothic', sans-serif; background-color: #f7f7f7;  color: #777; background: #f7f7f7;}
 
 
 

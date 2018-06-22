@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="index.css">
+
+<title>DESIGN</title>	
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script>
+	$(function(){
+		$('span.one').mouseenter(function(){
+			$('span.nod').stop().animate({'width':'410','opacity':'1'},500);
+		});	
+		$('span.one').mouseleave(function(){
+			$('span.nod').stop().animate({'width':'50','opacity':'0'},300);
+		});	
+
+		$('span.two').mouseenter(function(){
+			$('span.bord').stop().animate({'width':'570','opacity':'1'},500);
+		});	
+		$('span.two').mouseleave(function(){
+			$('span.bord').stop().animate({'width':'50','opacity':'0'},300);
+		});	
+		
+		$('span.one1').mouseenter(function(){
+			$('span.bord2').stop().animate({'width':'420','opacity':'1'},500);
+		});	
+		$('span.one1').mouseleave(function(){
+			$('span.bord2').stop().animate({'width':'50','opacity':'0'},300);
+		});	
+
+			$('span.two2').mouseenter(function(){
+			$('span.bord3').stop().animate({'width':'580','opacity':'1'},500);
+		});	
+			$('span.two2').mouseleave(function(){
+			$('span.bord3').stop().animate({'width':'50','opacity':'0'},500);
+		});	
+			$('span.thr').mouseenter(function(){
+			$('span.bord4').stop().animate({'width':'870','opacity':'1'},500);
+		});	
+			$('span.thr').mouseleave(function(){
+			$('span.bord4').stop().animate({'width':'50','opacity':'0'},500);
+		});	
+			$('span.thr2').mouseenter(function(){
+			$('span.bord5').stop().animate({'width':'150','opacity':'1'},500);
+		});	
+			$('span.thr2').mouseleave(function(){
+			$('span.bord5').stop().animate({'width':'50','opacity':'0'},500);
+		});	
+
+			$('img.logo').mouseenter(function(){
+				$('span#box2').stop().animate({'left':'300'});
+		});
+			$('img.logo').mouseleave(function(){
+				$('img.name').stop().animate({'opacity':'1'});
+				$('span#box2').stop().animate({'left':'60'});
+		});
+	});
+
+	
+
+</script>
+</head>
+<body>
+	<div id="wrap">
+	<img src="images/p.png" alt="l" class="logo" data-click="false"><img src="images/arrow.jpg" alt="ar" id="ar">
+	<img src="images/baekseonjoo.jpg" alt="l" class="name"><span id="box"></span> <span id="box2"></span>
+	<span class="nod"></span><span class="bord"></span><span class="bord2"></span>
+	<span class="bord3"></span><span class="bord4"></span><span class="bord5"></span>
+		<p class="one">
+		<span class="one">DESIGN1</span>
+		<span class="two">PUBLISING1</span></p>
+<p class="two"><span class="one1">DESIGN2</span><span class="two2">PUBLISING2</span></p>
+<p class="third"><span class="thr">RESPONSIVE WEB</span><span class="thr2">UI/UX</span></p>
+
+<p class="pro">
+<span id="pro">Profile</span><br>
+<span id="span1">name</span><span id="name">백선주</span><br>
+<span id="span2">software skills</span> 
+<span class="pho">Photoshop Illustrator HTML5 CSS3 JavaScript JQuery</span><br>
+<span id="span3">contact</span>
+<span class="span4">E-mail</span><span class="left">back0314kr@naver.com</span>
+<span class="span2">Tel.</span><span class="left2">010.9191.0381</span>
+<span class="span3">Add.</span><span class="left3">경기도 오산시 부산중앙로 12</p><!--
+
+<img src="images/arrow.jpg" alt="arr" class="arr"> -->
+
+</div>
+</body>
+</html>
