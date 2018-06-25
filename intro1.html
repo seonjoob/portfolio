@@ -10,6 +10,8 @@
 body{font-family: 'Roboto', sans-serif; font-size: 16px;
 	font-weight: 400; margin:0 auto;}
 a{color: #000;}
+#main{margin: 110px auto; /*overflow: hidden;*/}
+
 strong{padding: 30px; font-weight: 500;}
 
 div#wrap{width: 1200px;  margin: 0 auto; }
@@ -21,7 +23,7 @@ span{font-weight: 300;}
 /*88888888888888*/
 p.web{clear:both;float: left; padding-top:85px; width:600px; text-align: left;
 	font-size: 24px; font-weight: 500;}
-#wrap2{clear:both;float: left; padding-top:85px; margin: 0 auto; background: url(images/project2.jpg) no-repeat; 
+#wrap2{clear:both;float: left;  margin: 0 auto; background: url(images/project2.jpg) no-repeat 0 0; 
 	 width: 1200px; height: 4052px; margin:100px auto;  }
 h5{font-family: AppleSDGothicNeo-Regular,'Allura', cursive; font-size: 85px; text-align: center;
 padding-top: 43px; font-weight: 300;}
@@ -74,9 +76,11 @@ font-family: 'Nanum Gothic', sans-serif;}
 .container4 span{float: right; clear: both; margin-top: 18px; margin-right: 97px; width: 493px; line-height: 1.8; text-align:left; font-size: 15px; font-family: 'Nanum Gothic', sans-serif; }
 
 .bor5 span{font-family: 'Nanum Gothic', sans-serif; float: right; clear: both; border: 1px solid #000; width: 252px; height: 52px; margin-right: 472px; font-size: 18px; line-height: 52px; margin-top: 138px; background: #fff; cursor: pointer;  }
-.bor5 span:hover{ border: 1px solid #000;  background: #000; color: #fff;}
+.bor5 span:hover a{ border: 1px solid #000;  background: #000; color: #fff; }
+.bor5 span:hover { border: 1px solid #000;  background: #000; }
 .bor5 p{float: right; clear: both; margin-top: 140px; margin-right: 526px; cursor: pointer; font-size: 18px; font-weight: 700;}
-
+#go{color: #777;}
+#go:hover{color: orange;}
 </style>
 
 </head>
@@ -87,9 +91,9 @@ font-family: 'Nanum Gothic', sans-serif;}
 	<p class="web">Web Design</p>
 <div id="wrap2">
 		<h5>glt gelato</h5>
-		<img src="" alt="">
+		<img src="images/m.jpg" alt="m" id="main">
 		<h1 class="proj">project<br>glt gelato</h1>
-		<div class="bor"><h1 class="concept">Concept Keyword</h1><p>달콤한</p></div>
+				<div class="bor"><h1 class="concept">Concept Keyword</h1><p>달콤한</p></div>
 		<div class="container1">
 		<h2>About Project</h2>
 		<p>최근 SNS에서 핫한 홍대의 젤라또 전문점이지만 사이트가 없어 제작해보았습니다.<br>
@@ -137,8 +141,8 @@ font-family: 'Nanum Gothic', sans-serif;}
 	</div>
 
 	<div class="bor5">
-		<span>홈페이지 바로가기</span>
-	<p>목록으로 돌아가기</p></div>
+		<span><a href="Design1/gltgelato.html" id="home">홈페이지 바로가기</a></span>
+	<p class="go"><a href="index.html" id="go">목록으로 돌아가기</a></p></div>
 	</div> 
 </body>
 </html>

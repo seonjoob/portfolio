@@ -68,7 +68,7 @@ span.left3{position: absolute; left:600px; top:912px; font-size: 14px; font-weig
 .auto {
 	font-size: 40px;
 	position:absolute;
-	left:1024px; top:900px;
+	left:954px; top:900px;
 	color:#777; width:300px;
 	transition:.7s;/* 화살표 뒤로 가는 속도 */
 }
@@ -79,7 +79,7 @@ span.left3{position: absolute; left:600px; top:912px; font-size: 14px; font-weig
  .auto h6:nth-child(1) { animation:move 2.5s infinite; }
  .auto h6:nth-child(2) { opacity: 0; animation:move 2.5s infinite .7s; }
 /* animation:이름 진행시간 반복횟수 대기시간 */
-
+span#ck{position: absolute; left: 910px; top: 910px; color: #bdbdbe; font-size: 18px; font-weight: normal;}
 @keyframes move {
 	0% {
 		transform:scale(1);
@@ -89,6 +89,6 @@ span.left3{position: absolute; left:600px; top:912px; font-size: 14px; font-weig
 	100% {
 		transform:scale(1.5);
 		opacity:0;
-		left:100px;
+		left:200px;
 	}
 }
