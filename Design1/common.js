@@ -119,78 +119,50 @@ $(function(){
         start: 0 
     });
 
-	//엔드존 - 페이지 상단에서부터 광고창이 나타날 영역까지의 높이
-	var endZone = $('header').offset().top + 800;
-	var endZone2 = $('header').offset().top + 1600;
-	var endZone3 = $('header').offset().top + 1600;
-	var endZone4 = $('header').offset().top + 1600;
+ var endZone = $('header').offset().top + 680;
+  var endZone2 = $('header').offset().top + 1200;
+  var endZone3 = $('header').offset().top + 2000;
+  var endZone4 = $('header').offset().top + 2060;
+  var endZone5 = $('header').offset().top + 2260;
 
-	$(window).on('scroll', function(){
-		//조건식을 이용하여 현재 스크롤된 위치와 엔드존의 시작점을 비교
-		if(endZone < $(window).scrollTop()) {
-			$('.img1').animate({opacity:1},250);
+  $(window).on('scroll', function(){
+    if(endZone < $(window).scrollTop()) {
+      $(".img1").animate({opacity:1},250);
+      $(".img1").vegas({
+        slides: [{ src: "images/icec.jpg",transition: 'slideLeft' }],
+        },800);
+    } 
 
-			 $(".img1").vegas({
-      slides: [
-          { src: "images/icec.jpg",transition: 'slideLeft' },
-            ],
-  },1000);
-		} 
-	});
+    if(endZone2 < $(window).scrollTop()) {
+      $(".img2").animate({opacity:1},250);
+      $(".img2").vegas({
+        slides: [{ src: "images/choco.jpg",transition: 'slideRight' }],
+        },800);
+    } 
 
-	$(window).on('scroll', function(){
-		if(endZone2 < $(window).scrollTop()) {
-			$('.img2').animate({opacity:1},250);
+    if(endZone3 < $(window).scrollTop()) {
+      $(".img6").animate({opacity:1},250);
+      $(".img6").vegas({
+        slides: [{ src: "images/gelato2.jpg",transition: 'slideDown' }],
+        },2000);
+    } 
 
-			 $(".img2").vegas({
-      slides: [
-          { src: "images/choco.jpg",transition: 'slideRight' },
-            ],
-  },1000);
-		} 
-	});
-	
-	$(window).on('scroll', function(){
-		if(endZone3 < $(window).scrollTop()) {
-			$('.img3').animate({opacity:1},250);
+    if(endZone4 < $(window).scrollTop()) {
+      $(".img7").animate({opacity:1},250);
+      $(".img7").vegas({
+        slides: [{ src: "images/sorbe.jpg",transition: 'slideLeft' }],
+        },3000);
+    } 
+    
+  });
 
-			 $(".img3").vegas({
-      slides: [
-          { src: "images/orange.jpg",transition: 'slideUp' },
-        
-            ],
-  },1000);
-		} 
-	});
+  $("html, body, *").on("mousewheel",function(e,delta){    
+    if (delta > 0) {  
+      $("html,body").stop().animate({"scrollTop":"-=7000"},1000);
+    }else if (delta < 0) {  
+      $("html,body").stop().animate({"scrollTop":"+=980"},1000);     
+    }     
+  });
 
-	$(window).on('scroll', function(){
-		if(endZone4 < $(window).scrollTop()) {
-			$('.img6').animate({opacity:1},250);
-
-			 $(".img6").vegas({
-      slides: [
-          { src: "images/gelato2.jpg",transition: 'slideUp' },
-        
-            ],
-  },1000);
-		} 
-	});
-// $(".wrap").mousewheel(function(event, delta){
-// 			if(delta>0) {//마우스 휠을 올렸을 때
-// 				var prev = $(this).prev().offset().top;
-// 				$("html,body").stop().animate({"scrollTop":prev},1000,"easeOutBounce");
-			
-// 				}else if(delta < 0){//마우스 휠을 내렸을 때
-// 				var next = $(this).next().offset().top;
-// 				$("html,body").stop().animate({"scrollTop":next},1000,"easeOutBounce");
-// 			}
-// 		});
-
-	// $("li.one two").click(function(){
-	// 	var target = $(this).attr("href");
-	// 	$("html, body").animate({
-	// 		scrollTop:#(target).offset().top - $("#art6").offset().top
-	// 	},300);
-	// });
 
 });
