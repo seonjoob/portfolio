@@ -1,6 +1,6 @@
  @charset "utf-8";
 
-body{/*background: #ffda53;*/ height: 900px; color:#0e3441; }
+body{/*background: #ffda53;*/ ; color:#0e3441; }
 img.logo{position:absolute; left:0; top:10px; width:64px;}
 img.logo:hover{transform:rotate(45deg); }
 img.name{position: absolute; left:68px; top:50px; width: 207px; height: 64px; display: none;}

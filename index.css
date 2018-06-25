@@ -1,6 +1,6 @@
  @charset "utf-8";
 
-body{width:1900px; font-family:'Roboto Condensed', '맑은 고딕', dotum, sans-serif; font-size: 104px; font-weight: 900; cursor: pointer;}
+body{margin:0 auto; font-family:'Roboto Condensed', '맑은 고딕', dotum, sans-serif; font-size: 104px; font-weight: 900; cursor: pointer;}
 a{color: #000;}
 span.nod{opacity:0; border:10px solid #9933cc; width:50px; left: 0; top:297px; position: absolute; z-index: 999; }
 span.bord{opacity:0; border:10px solid #a117db; width:50px; left: 490px; top:307px; position: absolute; z-index: 999; }
