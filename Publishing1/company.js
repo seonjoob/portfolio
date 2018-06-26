@@ -28,9 +28,15 @@
 		auto = setInterval(slide, 2000);
 	});
 
+	$('.slide').mouseenter(function(){
+		$(".btn").css({"opacity":"1"});
+	})
+	$('.slide').mouseleave(function(){
+		$(".btn").css({"opacity":"0.6"});
+	})
 //header
 $(window).scroll(function(){
-	if($(window).scrollTop() < 400) {
+	if(100>$(window).scrollTop()/*<400*/) {
 		$('.nav').css({'background-color':'rgba(0,0,0,0)','transition':'.5s'});
 		$('button').css('display','none');
 	} else {
