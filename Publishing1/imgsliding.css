@@ -11,10 +11,10 @@ body{text-align:center; }
 	float: left;
 }
 /*각 각의 메인 이미지*/
-.img1 {background:url(images/main04p.jpg) no-repeat ;}
-.img2 {background:url(images/main01p.jpg) no-repeat ; }
-.img3 {background:url(images/main02p.jpg) no-repeat ; }
-.img4 {background:url(images/main03p.jpg) no-repeat ;}
+.img1 {background:url(images/main4.jpg) no-repeat ;}
+.img2 {background:url(images/main1.jpg) no-repeat ; }
+.img3 {background:url(images/main2.jpg) no-repeat ; }
+.img4 {background:url(images/main3.jpg) no-repeat ;}
 
 /*
 .btnG{width:112px ; height:16px; /*width:28px*4=112px position: absolute; bottom: 50px;left: 0; right: 0; margin:auto;}
